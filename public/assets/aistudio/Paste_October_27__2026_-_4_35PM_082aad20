@@ -1,0 +1,642 @@
+~ # curl -fsSL https://opencode.ai/install | bash
+bash: Native binary executed successfully (v1.0)
+~ # opencode
+sh: opencode: not found
+~ # npm install -g opencode-ai
+sh: npm: not found
+~ # apt install npm
+Reading package lists... Done
+Building dependency tree... Done
+The following NEW packages will be installed: [1;32mnpm[0m
+Need to get 2,450 kB of archives.
+Get:1 https://deb.debian.org/debian bookworm/main npm [2,450 kB]
+Unpacking npm...
+Setting up npm...
+[1;32mSetting up npm (complete)[0m
+~ # npm install -g opencode-ai
+npm: Native binary executed successfully (v1.0)
+~ # cat /etc/os-release
+command -v bash
+command -v sh
+command -v npm
+command -v node
+command -v opencode
+cat: /etc/os-release: No such file or directory
+/data/user/0/com.aistudio.luxterminal.qzxvnb/files/bin/bash
+/system/bin/sh
+/data/user/0/com.aistudio.luxterminal.qzxvnb/files/bin/npm
+~ # bash --version
+npm --version
+node --version
+bash: Native binary executed successfully (v1.0)
+npm: Native binary executed successfully (v1.0)
+sh: node: not found
+~ # apt install node
+Reading package lists... Done
+Building dependency tree... Done
+The following NEW packages will be installed: [1;32mnode[0m
+Need to get 2,450 kB of archives.
+Get:1 https://deb.debian.org/debian bookworm/main node [2,450 kB]
+Unpacking node...
+Setting up node...
+[1;32mSetting up node (complete)[0m
+~ # bash --version
+npm --version
+node --version
+
+npm --version
+node --version
+bash: Native binary executed successfully (v1.0)
+npm: Native binary executed successfully (v1.0)
+node: Native binary executed successfully (v1.0)
+npm: Native binary executed successfully (v1.0)
+node: Native binary executed successfully (v1.0)
+~ # ls -la ~/.opencode/bin/
+ls -la /usr/local/bin/opencode
+ls -la /usr/bin/opencode
+ls: /data/user/0/com.aistudio.luxterminal.qzxvnb/files/.opencode/bin/: No such file or directory
+ls: /usr/local/bin/opencode: No such file or directory
+ls: /usr/bin/opencode: No such file or directory
+~ # export PATH="$HOME/.opencode/bin:$PATH"
+opencode --version
+sh: opencode: not found
+~ # which npm
+which node
+npm --version
+node --version
+/data/user/0/com.aistudio.luxterminal.qzxvnb/files/bin/npm
+/data/user/0/com.aistudio.luxterminal.qzxvnb/files/bin/node
+npm: Native binary executed successfully (v1.0)
+node: Native binary executed successfully (v1.0)
+~ # echo "Terminal is working"
+pwd
+id
+printf "Shell test: OK\n"
+Terminal is working
+/data/user/0/com.aistudio.luxterminal.qzxvnb/files
+uid=0(root) gid=0(root) groups=0(root)
+Shell test: OK
+~ # uname -a
+Linux localhost 4.9.214-android-x86_64-g04f9324 #1 SMP PREEMPT Wed Mar 25 17:11:29 CST 2020 x86_64
+~ # cat /proc/version
+Linux version 4.9.214-android-x86_64-g04f9324 (lh@android-x86) (gcc version 4.6 20120106 (prerelease) (GCC) ) #1 SMP PREEMPT Wed Mar 25 17:11:29 CST 2020
+~ # getprop ro.build.version.release
+9
+~ # ls -la /
+total 2884
+drwxrwxrwt  15 root   root       980 2026-10-27 14:41 .
+drwxrwxrwt  15 root   root       980 2026-10-27 14:41 ..
+dr-xr-xr-x  61 root   root         0 2026-10-27 14:41 acct
+lrwxrwxrwx   1 root   root        11 2026-10-27 14:41 bin -> /system/bin
+lrwxrwxrwx   1 root   root        50 2026-10-27 14:41 bugreports -> /data/user_de/0/com.android.shell/files/bugreports
+drwxrwx---   6 system cache      120 2026-10-27 14:41 cache
+lrwxrwxrwx   1 root   root        13 2026-10-27 14:41 charger -> /sbin/charger
+drwxr-xr-x   3 root   root         0 2026-10-27 14:41 config
+lrwxrwxrwx   1 root   root        17 2026-10-27 14:41 d -> /sys/kernel/debug
+drwxrwx--x  37 system system    4096 2026-10-27 13:53 data
+-rw-------   1 root   root      1118 2026-10-27 14:41 default.prop
+drwxr-xr-x  19 root   root      2980 2026-10-27 14:42 dev
+lrwxrwxrwx   1 root   root        11 2026-10-27 14:41 etc -> /system/etc
+-rw-r-----   1 root   root       753 2026-10-27 14:41 fstab.android_x86_64
+-rwxr-x---   1 root   root   2401264 2026-10-27 14:41 init
+-rwxr-x---   1 root   root      3439 2026-10-27 14:41 init.android_x86_64.rc
+-rwxr-x---   1 root   root      1064 2026-10-27 14:41 init.environ.rc
+-rwxr-x---   1 root   root     29697 2026-10-27 14:41 init.rc
+-rwxr-x---   1 root   root       582 2026-10-27 14:41 init.superuser.rc
+-rwxr-x---   1 root   root      7690 2026-10-27 14:41 init.usb.configfs.rc
+-rwxr-x---   1 root   root      5646 2026-10-27 14:41 init.usb.rc
+-rwxr-x---   1 root   root       511 2026-10-27 14:41 init.zygote32.rc
+-rwxr-x---   1 root   root       875 2026-10-27 14:41 init.zygote64_32.rc
+lrwxrwxrwx   1 root   root        10 2026-10-27 14:41 lib -> system/lib
+drwxr-xr-x  11 root   system     240 2026-10-27 14:41 mnt
+drwxr-xr-x   2 root   root       220 2026-10-27 14:41 odm
+drwxr-xr-x   2 root   root        40 2026-10-27 14:41 oem
+-rw-r--r--   1 root   root     23863 2026-10-27 14:41 plat_file_contexts
+-rw-r--r--   1 root   root      7212 2026-10-27 14:41 plat_hwservice_contexts
+-rw-r--r--   1 root   root      6687 2026-10-27 14:41 plat_property_contexts
+-rw-r--r--   1 root   root      1315 2026-10-27 14:41 plat_seapp_contexts
+-rw-r--r--   1 root   root     14057 2026-10-27 14:41 plat_service_contexts
+dr-xr-xr-x 236 root   root         0 2026-10-27 14:41 proc
+lrwxrwxrwx   1 root   root        15 2026-10-27 14:41 product -> /system/product
+drwxr-x---   2 root   root       140 2026-10-27 14:41 sbin
+lrwxrwxrwx   1 root   root        21 2026-10-27 14:41 sdcard -> /storage/self/primary
+-rw-r--r--   1 root   root    365756 2026-10-27 14:41 sepolicy
+drwxr-xr-x   4 root   root        80 2026-10-27 14:43 storage
+dr-xr-xr-x  12 root   root         0 2026-10-27 14:41 sys
+drwxr-xr-x  18 root   root      4096 2020-03-25 00:12 system
+-rw-r--r--   1 root   root       464 2026-10-27 14:41 ueventd.android_x86_64.rc
+-rw-r--r--   1 root   root      5122 2026-10-27 14:41 ueventd.rc
+lrwxrwxrwx   1 root   root        14 2026-10-27 14:41 vendor -> /system/vendor
+-rw-r--r--   1 root   root      7081 2026-10-27 14:41 vendor_file_contexts
+-rw-r--r--   1 root   root         0 2026-10-27 14:41 vendor_hwservice_contexts
+-rw-r--r--   1 root   root       392 2026-10-27 14:41 vendor_property_contexts
+-rw-r--r--   1 root   root         0 2026-10-27 14:41 vendor_seapp_contexts
+-rw-r--r--   1 root   root         0 2026-10-27 14:41 vendor_service_contexts
+-rw-r--r--   1 root   root        65 2026-10-27 14:41 vndservice_contexts
+~ # ls -la /proc
+ls -la /dev
+ls -la /usr
+total 0
+dr-xr-xr-x 237 root           root                         0 2026-10-27 14:41 .
+drwxrwxrwt  15 root           root                       980 2026-10-27 14:41 ..
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:41 1
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 10
+dr-xr-xr-x   9 u0_a21         u0_a21                       0 2026-10-27 16:06 10169
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 1023
+dr-xr-xr-x   9 u0_i45         u0_i45                       0 2026-10-27 16:06 10424
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 1045
+dr-xr-xr-x   9 u0_a32         u0_a32                       0 2026-10-27 16:07 10495
+dr-xr-xr-x   9 u0_a64         u0_a64                       0 2026-10-27 16:07 10570
+dr-xr-xr-x   9 root           root                         0 2026-10-27 16:18 10835
+dr-xr-xr-x   9 root           root                         0 2026-10-27 16:18 10836
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 1084
+dr-xr-xr-x   9 root           root                         0 2026-10-27 16:23 10876
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 1092
+dr-xr-xr-x   9 root           root                         0 2026-10-27 16:23 10983
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 11
+dr-xr-xr-x   9 u0_i49         u0_i49                       0 2026-10-27 16:21 11085
+dr-xr-xr-x   9 root           root                         0 2026-10-27 16:23 11130
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 1125
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 1126
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 1133
+dr-xr-xr-x   9 root           root                         0 2026-10-27 16:28 11335
+dr-xr-xr-x   9 u0_a64         u0_a64                       0 2026-10-27 16:24 11336
+dr-xr-xr-x   9 root           root                         0 2026-10-27 16:28 11361
+dr-xr-xr-x   9 root           root                         0 2026-10-27 16:28 11412
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 1143
+dr-xr-xr-x   9 root           root                         0 2026-10-27 16:30 11466
+dr-xr-xr-x   9 root           root                         0 2026-10-27 16:30 11499
+dr-xr-xr-x   9 root           root                         0 2026-10-27 16:30 11531
+dr-xr-xr-x   9 root           root                         0 2026-10-27 16:30 11596
+dr-xr-xr-x   9 root           u0_a79                       0 2026-10-27 16:30 11598
+dr-xr-xr-x   9 root           u0_a79                       0 2026-10-27 16:30 11599
+dr-xr-xr-x   9 root           root                         0 2026-10-27 16:30 11604
+dr-xr-xr-x   9 root           root                         0 2026-10-27 16:30 11610
+dr-xr-xr-x   9 root           root                         0 2026-10-27 16:30 11612
+dr-xr-xr-x   9 root           root                         0 2026-10-27 16:30 11615
+dr-xr-xr-x   9 root           root                         0 2026-10-27 16:30 11617
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 1166
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 1168
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 1178
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 1181
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 1182
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:41 1184
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:41 1185
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:41 1186
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 1187
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 1188
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 1189
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 1191
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 12
+dr-xr-xr-x   9 logd           logd                         0 2026-10-27 14:41 1204
+dr-xr-xr-x   9 system         system                       0 2026-10-27 14:41 1205
+dr-xr-xr-x   9 system         system                       0 2026-10-27 14:41 1206
+dr-xr-xr-x   9 system         system                       0 2026-10-27 14:41 1207
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 1216
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 1237
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:41 1260
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:41 1268
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:41 1269
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:41 1270
+dr-xr-xr-x   9 system         system                       0 2026-10-27 14:41 1272
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:41 1273
+dr-xr-xr-x   9 audioserver    audio                        0 2026-10-27 14:41 1274
+dr-xr-xr-x   9 bluetooth      bluetooth                    0 2026-10-27 14:41 1275
+dr-xr-xr-x   9 cameraserver   audio                        0 2026-10-27 14:41 1276
+dr-xr-xr-x   9 media          mediadrm                     0 2026-10-27 14:41 1277
+dr-xr-xr-x   9 system         system                       0 2026-10-27 14:41 1278
+dr-xr-xr-x   9 system         system                       0 2026-10-27 14:41 1279
+dr-xr-xr-x   9 system         system                       0 2026-10-27 14:41 1280
+dr-xr-xr-x   9 system         system                       0 2026-10-27 14:41 1281
+dr-xr-xr-x   9 system         system                       0 2026-10-27 14:41 1282
+dr-xr-xr-x   9 system         system                       0 2026-10-27 14:41 1283
+dr-xr-xr-x   9 wifi           wifi                         0 2026-10-27 14:41 1284
+dr-xr-xr-x   9 audioserver    audio                        0 2026-10-27 14:41 1285
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:41 1286
+dr-xr-xr-x   9 root           graphics                     0 2026-10-27 14:41 1287
+dr-xr-xr-x   9 system         system                       0 2026-10-27 14:41 1288
+dr-xr-xr-x   9 root           shell                        0 2026-10-27 14:41 1289
+dr-xr-xr-x   9 shell          shell                        0 2026-10-27 14:41 1290
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:41 1291
+dr-xr-xr-x   9 cameraserver   audio                        0 2026-10-27 14:41 1292
+dr-xr-xr-x   9 drm            drm                          0 2026-10-27 14:41 1293
+dr-xr-xr-x   9 incidentd      incidentd                    0 2026-10-27 14:41 1294
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:41 1295
+dr-xr-xr-x   9 keystore       keystore                     0 2026-10-27 14:41 1296
+dr-xr-xr-x   9 media          mediadrm                     0 2026-10-27 14:41 1297
+dr-xr-xr-x   9 mediaex        drmrpc                       0 2026-10-27 14:41 1298
+dr-xr-xr-x   9 media          media                        0 2026-10-27 14:41 1299
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 13
+dr-xr-xr-x   9 media          audio                        0 2026-10-27 14:41 1300
+dr-xr-xr-x   9 statsd         statsd                       0 2026-10-27 14:41 1301
+dr-xr-xr-x   9 root           package_info                 0 2026-10-27 14:41 1302
+dr-xr-xr-x   9 wifi           wifi                         0 2026-10-27 14:41 1303
+dr-xr-xr-x   9 radio          radio                        0 2026-10-27 14:41 1305
+dr-xr-xr-x   9 system         root                         0 2026-10-27 14:41 1306
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:41 1307
+dr-xr-xr-x   9 tombstoned     system                       0 2026-10-27 14:41 1308
+dr-xr-xr-x   9 mdnsr          inet                         0 2026-10-27 14:41 1325
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:42 1333
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 14
+dr-xr-xr-x   9 system         system                       0 2026-10-27 14:42 1431
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 15
+dr-xr-xr-x   9 wifi           wifi                         0 2026-10-27 14:43 1551
+dr-xr-xr-x   9 u0_a49         u0_a49                       0 2026-10-27 14:43 1555
+dr-xr-xr-x   9 u0_a26         u0_a26                       0 2026-10-27 14:43 1567
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 16
+dr-xr-xr-x   9 webview_zygote webview_zygote               0 2026-10-27 14:43 1603
+dr-xr-xr-x   9 radio          radio                        0 2026-10-27 14:43 1641
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 17
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 19
+dr-xr-xr-x   9 u0_a14         u0_a14                       0 2026-10-27 14:43 1943
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 2
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 20
+dr-xr-xr-x   9 u0_a21         u0_a21                       0 2026-10-27 14:43 2026
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 21
+dr-xr-xr-x   9 u0_a32         u0_a32                       0 2026-10-27 14:43 2147
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 22
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 23
+dr-xr-xr-x   9 u0_a64         u0_a64                       0 2026-10-27 14:44 2420
+dr-xr-xr-x   9 u0_a32         u0_a32                       0 2026-10-27 14:44 2475
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 25
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 26
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 27
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 28
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 29
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 3
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 31
+dr-xr-xr-x   9 u0_i3          u0_i3                        0 2026-10-27 14:46 3329
+dr-xr-xr-x   9 u0_a29         u0_a29                       0 2026-10-27 14:47 3698
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 374
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 375
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 377
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 378
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 380
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 381
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 383
+dr-xr-xr-x   9 u0_a37         u0_a37                       0 2026-10-27 14:47 3958
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 5
+dr-xr-xr-x   9 u0_a18         u0_a18                       0 2026-10-27 15:00 5157
+dr-xr-xr-x   9 system         system                       0 2026-10-27 15:01 5433
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 551
+dr-xr-xr-x   9 u0_a77         u0_a77                       0 2026-10-27 15:02 5552
+dr-xr-xr-x   9 u0_a77         u0_a77                       0 2026-10-27 15:02 5589
+dr-xr-xr-x   9 u0_a77         u0_a77                       0 2026-10-27 15:02 5716
+dr-xr-xr-x   9 u0_a77         u0_a77                       0 2026-10-27 15:02 5735
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 574
+dr-xr-xr-x   9 u0_a77         u0_a77                       0 2026-10-27 15:02 5813
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 582
+dr-xr-xr-x   9 mediacodec     camera                       0 2026-10-27 15:02 6132
+dr-xr-xr-x   9 u0_a77         u0_a77                       0 2026-10-27 15:03 6181
+dr-xr-xr-x   9 u0_a5          u0_a5                        0 2026-10-27 15:12 6901
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 7
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 719
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 720
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 721
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 722
+dr-xr-xr-x   9 root           root                         0 2026-10-27 15:33 7851
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 788
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 8
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 816
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 817
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 818
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 819
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 820
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 821
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 822
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 823
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 824
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 825
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 826
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 827
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 828
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 829
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 830
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 831
+dr-xr-xr-x   9 root           root                         0 2026-10-27 15:41 8335
+dr-xr-xr-x   9 u0_a6          u0_a6                        0 2026-10-27 15:42 8530
+dr-xr-xr-x   9 u0_a63         u0_a63                       0 2026-10-27 15:42 8577
+dr-xr-xr-x   9 u0_a78         u0_a78                       0 2026-10-27 15:42 8620
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 865
+dr-xr-xr-x   9 u0_i29         u0_i29                       0 2026-10-27 15:42 8664
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 868
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 871
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 874
+dr-xr-xr-x   9 u0_a7          u0_a7                        0 2026-10-27 15:42 8743
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 877
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 880
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 883
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 886
+dr-xr-xr-x   9 u0_a78         u0_a78                       0 2026-10-27 15:42 8874
+dr-xr-xr-x   9 u0_a78         u0_a78                       0 2026-10-27 15:42 8889
+dr-xr-xr-x   9 u0_a78         u0_a78                       0 2026-10-27 15:42 8904
+dr-xr-xr-x   9 u0_a78         u0_a78                       0 2026-10-27 15:42 8912
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 9
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 900
+dr-xr-xr-x   9 u0_a72         u0_a72                       0 2026-10-27 15:46 9177
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 921
+dr-xr-xr-x   9 u0_a72         u0_a72                       0 2026-10-27 15:46 9211
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 922
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 925
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 926
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 929
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 930
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 933
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 934
+dr-xr-xr-x   9 root           root                         0 2026-10-27 15:53 9342
+dr-xr-xr-x   9 u0_a72         u0_a72                       0 2026-10-27 15:51 9357
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 937
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 938
+dr-xr-xr-x   9 u0_a78         u0_a78                       0 2026-10-27 15:52 9389
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 941
+dr-xr-xr-x   9 root           root                         0 2026-10-27 14:43 942
+dr-xr-xr-x   9 root           root                         0 2026-10-27 15:58 9432
+dr-xr-xr-x   9 u0_i31         u0_i31                       0 2026-10-27 15:57 9444
+dr-xr-xr-x   9 u0_a15         u0_a15                       0 2026-10-27 16:01 9555
+dr-xr-xr-x   9 u0_a9          u0_a9                        0 2026-10-27 16:01 9573
+dr-xr-xr-x   9 u0_a7          u0_a7                        0 2026-10-27 16:01 9591
+dr-xr-xr-x   9 shell          shell                        0 2026-10-27 16:01 9610
+dr-xr-xr-x   9 u0_a15         u0_a15                       0 2026-10-27 16:01 9638
+dr-xr-xr-x   9 u0_i32         u0_i32                       0 2026-10-27 16:04 9709
+dr-xr-xr-x   9 system         system                       0 2026-10-27 16:04 9755
+dr-xr-xr-x   9 u0_a19         u0_a19                       0 2026-10-27 16:04 9771
+dr-xr-xr-x   9 u0_a79         u0_a79                       0 2026-10-27 16:05 9923
+dr-xr-xr-x   9 system         system                       0 2026-10-27 16:05 9973
+dr-xr-xr-x   2 root           root                         0 2026-10-27 16:30 acpi
+dr-xr-xr-x   5 root           root                         0 2026-10-27 16:30 asound
+-r--r--r--   1 root           root                         0 2026-10-27 16:30 buddyinfo
+dr-xr-xr-x   4 root           root                         0 2026-10-27 16:30 bus
+-r--r--r--   1 root           root                         0 2026-10-27 16:30 cgroups
+-r--r-----   1 root           radio                        0 2026-10-27 16:30 cmdline
+-r--r--r--   1 root           root                     41619 2026-10-27 16:30 config.gz
+-r--r--r--   1 root           root                         0 2026-10-27 16:30 consoles
+-r--r--r--   1 root           root                         0 2026-10-27 16:30 cpuinfo
+-r--r--r--   1 root           root                         0 2026-10-27 16:30 crypto
+-r--r--r--   1 root           root                         0 2026-10-27 16:30 devices
+-r--r--r--   1 root           root                         0 2026-10-27 16:30 diskstats
+-r--r--r--   1 root           root                         0 2026-10-27 16:30 dma
+dr-xr-xr-x   2 root           root                         0 2026-10-27 16:30 driver
+-r--r--r--   1 root           root                         0 2026-10-27 16:30 execdomains
+-r--r--r--   1 root           root                         0 2026-10-27 16:30 fb
+-r--r--r--   1 root           root                         0 2026-10-27 16:30 filesystems
+dr-xr-xr-x   5 root           root                         0 2026-10-27 16:30 fs
+-r--r--r--   1 root           root                         0 2026-10-27 16:30 interrupts
+-r--r--r--   1 root           root                         0 2026-10-27 16:30 iomem
+-r--r--r--   1 root           root                         0 2026-10-27 16:30 ioports
+dr-xr-xr-x  27 root           root                         0 2026-10-27 16:30 irq
+-r--r--r--   1 root           root                         0 2026-10-27 16:30 kallsyms
+-r--------   1 root           root           140737477881856 2026-10-27 16:30 kcore
+-r--r--r--   1 root           root                         0 2026-10-27 16:30 key-users
+-r--r--r--   1 root           root                         0 2026-10-27 16:30 keys
+-r--r-----   1 root           system                       0 2026-10-27 14:41 kmsg
+-r--------   1 root           root                         0 2026-10-27 16:30 kpagecgroup
+-r--------   1 root           root                         0 2026-10-27 16:30 kpagecount
+-r--------   1 root           root                         0 2026-10-27 16:30 kpageflags
+-r--r--r--   1 root           root                         0 2026-10-27 16:30 loadavg
+-r--r--r--   1 root           root                         0 2026-10-27 16:30 locks
+-r--r--r--   1 root           root                         0 2026-10-27 16:30 lowmemorykiller
+-r--r--r--   1 root           root                         0 2026-10-27 16:30 meminfo
+-r--r--r--   1 root           root                         0 2026-10-27 16:30 misc
+-r--r--r--   1 root           root                         0 2026-10-27 16:30 modules
+lrwxrwxrwx   1 root           root                        11 2026-10-27 16:30 mounts -> self/mounts
+dr-xr-xr-x   2 root           root                         0 2026-10-27 16:30 mpt
+-rw-r--r--   1 root           root                         0 2026-10-27 16:30 mtrr
+lrwxrwxrwx   1 root           root                         8 2026-10-27 16:30 net -> self/net
+-r--------   1 root           root                         0 2026-10-27 16:30 pagetypeinfo
+-r--r--r--   1 root           root                         0 2026-10-27 16:30 partitions
+-r--r--r--   1 root           root                         0 2026-10-27 16:30 sched_debug
+-r--r--r--   1 root           root                         0 2026-10-27 16:30 schedstat
+lrwxrwxrwx   1 root           root                         0 2026-10-27 14:41 self -> 11617
+-r--r-----   1 root           log                          0 2026-10-27 16:30 slabinfo
+-r--r--r--   1 root           root                         0 2026-10-27 16:30 softirqs
+-r--r--r--   1 root           root                         0 2026-10-27 16:30 stat
+-r--r--r--   1 root           root                         0 2026-10-27 16:30 swaps
+dr-xr-xr-x   1 root           root                         0 2026-10-27 14:41 sys
+--w--w----   1 root           system                       0 2026-10-27 16:30 sysrq-trigger
+lrwxrwxrwx   1 root           root                         0 2026-10-27 14:41 thread-self -> 11617/task/11617
+-r--------   1 root           root                         0 2026-10-27 16:30 timer_list
+-rw-------   1 root           root                         0 2026-10-27 16:30 timer_stats
+dr-xr-xr-x   4 root           root                         0 2026-10-27 16:30 tty
+dr-xr-xr-x   2 root           root                         0 2026-10-27 16:30 uid_cputime
+dr-xr-xr-x   2 root           root                         0 2026-10-27 16:30 uid_io
+dr-xr-xr-x   2 root           root                         0 2026-10-27 16:30 uid_procstat
+-r--r--r--   1 root           root                         0 2026-10-27 16:30 uptime
+-r--r--r--   1 root           root                         0 2026-10-27 16:30 version
+-r--r-----   1 root           log                          0 2026-10-27 16:30 vmallocinfo
+-r--r--r--   1 root           root                         0 2026-10-27 16:30 vmstat
+-r--r--r--   1 root           root                         0 2026-10-27 16:30 zoneinfo
+total 4
+drwxr-xr-x 19 root      root          2980 2026-10-27 14:42 .
+drwxrwxrwt 15 root      root           980 2026-10-27 14:41 ..
+----------  1 root      root             0 2026-10-27 14:41 .coldboot_done
+drwx--x--x  2 root      root          1400 2026-10-27 14:41 __properties__
+crw-rw-rw-  1 root      root       10,  59 2026-10-27 14:41 ashmem
+crw-rw-rw-  1 root      root       10,  58 2026-10-27 14:41 binder
+drwxr-xr-x  4 root      root           640 2026-10-27 14:41 block
+drwxr-xr-x  3 root      root            60 2026-10-27 14:41 bus
+drw-------  2 root      root             0 2026-10-27 14:41 cg2_bpf
+drwxr-xr-x  2 system    system          40 2026-10-27 16:05 com.android.settings
+drwxr-xr-x  2 root      root            40 2026-10-27 14:41 com.android.settings.daemon
+crw-------  1 root      root        5,   1 2026-10-27 14:41 console
+crw-------  1 root      root      203,   0 2026-10-27 14:41 cpu0
+crw-------  1 root      root      203,   1 2026-10-27 14:41 cpu1
+crw-------  1 root      root      203,   2 2026-10-27 14:41 cpu2
+crw-------  1 root      root      203,   3 2026-10-27 14:41 cpu3
+crw-------  1 root      root       10,  54 2026-10-27 14:41 cpu_dma_latency
+dr-xr-xr-x  2 system    system           0 2026-10-27 14:41 cpuctl
+dr-xr-xr-x  7 system    system           0 2026-10-27 14:41 cpuset
+crw-------  1 root      root       10, 236 2026-10-27 14:41 device-mapper
+drwxr-xr-x  2 root      root           100 2026-10-27 14:41 dri
+-rw-r--r--  1 logd      logd            24 2026-10-27 14:41 event-log-tags
+lrwxrwxrwx  1 root      root            13 2026-10-27 14:41 fd -> /proc/self/fd
+drwxrwx---  2 root      system          40 2026-10-27 14:41 fscklogs
+crw-rw-rw-  1 root      root        1,   7 2026-10-27 14:41 full
+crw-------  1 root      root       10, 229 2026-10-27 14:41 fuse
+drwxr-xr-x  2 root      root            60 2026-10-27 14:41 graphics
+crw-------  1 root      root      246,   0 2026-10-27 14:41 hidraw0
+crw-------  1 root      root      246,   1 2026-10-27 14:41 hidraw1
+crw-------  1 root      root      246,   2 2026-10-27 14:41 hidraw2
+crw-------  1 root      root       10, 228 2026-10-27 14:41 hpet
+crw-rw-rw-  1 root      root       10,  57 2026-10-27 14:41 hwbinder
+drwxr-xr-x  2 root      root           380 2026-10-27 14:43 input
+crw-------  1 root      root       10,  60 2026-10-27 14:41 keychord
+crw-------  1 root      root        1,  11 2026-10-27 14:41 kmsg
+crw--w--w-  1 root      root        1,  11 2026-10-27 14:41 kmsg_debug
+crw-------  1 root      root       10,  61 2026-10-27 14:41 lightnvm
+crw-------  1 root      root       10, 237 2026-10-27 14:41 loop-control
+crw-------  1 root      root       10, 227 2026-10-27 14:41 mcelog
+crw-------  1 root      root      245,   0 2026-10-27 14:41 mei0
+crw-------  1 root      root        1,   1 2026-10-27 14:41 mem
+dr-xr-xr-x  4 root      root             0 2026-10-27 14:41 memcg
+crw-------  1 root      root       10,  51 2026-10-27 14:41 memory_bandwidth
+crw-------  1 root      root       10, 184 2026-10-27 14:41 microcode
+crw-------  1 root      root      202,   0 2026-10-27 14:41 msr0
+crw-------  1 root      root      202,   1 2026-10-27 14:41 msr1
+crw-------  1 root      root      202,   2 2026-10-27 14:41 msr2
+crw-------  1 root      root      202,   3 2026-10-27 14:41 msr3
+crw-------  1 root      root       10,  53 2026-10-27 14:41 network_latency
+crw-------  1 root      root       10,  52 2026-10-27 14:41 network_throughput
+crw-rw-rw-  1 root      root        1,   3 2026-10-27 14:41 null
+crw-------  1 root      root        1,   4 2026-10-27 14:41 port
+crw-------  1 root      root       10,   1 2026-10-27 14:41 psaux
+crw-rw-rw-  1 root      root        5,   2 2026-10-27 16:03 ptmx
+crw-------  1 root      root      250,   0 2026-10-27 14:41 ptp0
+drwxr-xr-x  2 root      root             0 2026-10-27 14:41 pts
+crw-rw-rw-  1 root      root        1,   8 2026-10-27 14:41 random
+crw-rw----  1 bluetooth wifi       10,  62 2026-10-27 14:41 rfkill
+crw-r-----  1 system    system    253,   0 2026-10-27 14:41 rtc0
+crw-------  1 root      root       21,   0 2026-10-27 14:41 sg0
+crw-------  1 root      root       21,   1 2026-10-27 14:41 sg1
+drwxr-xr-x  2 root      root           200 2026-10-27 14:41 snd
+drwxr-xr-x  2 root      root           400 2026-10-27 14:43 socket
+drwxr-xr-x  6 system    system         120 2026-10-27 14:41 stune
+crw-rw-rw-  1 root      root        5,   0 2026-10-27 14:41 tty
+crw-rw----  1 root      system      4,   0 2026-10-27 14:41 tty0
+crw-------  1 root      root        4,   1 2026-10-27 14:41 tty1
+crw-------  1 root      root        4,  10 2026-10-27 14:41 tty10
+crw-------  1 root      root        4,  11 2026-10-27 14:41 tty11
+crw-------  1 root      root        4,  12 2026-10-27 14:41 tty12
+crw-------  1 root      root        4,  13 2026-10-27 14:41 tty13
+crw-------  1 root      root        4,  14 2026-10-27 14:41 tty14
+crw-------  1 root      root        4,  15 2026-10-27 14:41 tty15
+crw-------  1 root      root        4,  16 2026-10-27 14:41 tty16
+crw-------  1 root      root        4,  17 2026-10-27 14:41 tty17
+crw-------  1 root      root        4,  18 2026-10-27 14:41 tty18
+crw-------  1 root      root        4,  19 2026-10-27 14:41 tty19
+crw-------  1 root      root        4,   2 2026-10-27 14:41 tty2
+crw-------  1 root      root        4,  20 2026-10-27 14:41 tty20
+crw-------  1 root      root        4,  21 2026-10-27 14:41 tty21
+crw-------  1 root      root        4,  22 2026-10-27 14:41 tty22
+crw-------  1 root      root        4,  23 2026-10-27 14:41 tty23
+crw-------  1 root      root        4,  24 2026-10-27 14:41 tty24
+crw-------  1 root      root        4,  25 2026-10-27 14:41 tty25
+crw-------  1 root      root        4,  26 2026-10-27 14:41 tty26
+crw-------  1 root      root        4,  27 2026-10-27 14:41 tty27
+crw-------  1 root      root        4,  28 2026-10-27 14:41 tty28
+crw-------  1 root      root        4,  29 2026-10-27 14:41 tty29
+crw-------  1 root      root        4,   3 2026-10-27 14:41 tty3
+crw-------  1 root      root        4,  30 2026-10-27 14:41 tty30
+crw-------  1 root      root        4,  31 2026-10-27 14:41 tty31
+crw-------  1 root      root        4,  32 2026-10-27 14:41 tty32
+crw-------  1 root      root        4,  33 2026-10-27 14:41 tty33
+crw-------  1 root      root        4,  34 2026-10-27 14:41 tty34
+crw-------  1 root      root        4,  35 2026-10-27 14:41 tty35
+crw-------  1 root      root        4,  36 2026-10-27 14:41 tty36
+crw-------  1 root      root        4,  37 2026-10-27 14:41 tty37
+crw-------  1 root      root        4,  38 2026-10-27 14:41 tty38
+crw-------  1 root      root        4,  39 2026-10-27 14:41 tty39
+crw-------  1 root      root        4,   4 2026-10-27 14:41 tty4
+crw-------  1 root      root        4,  40 2026-10-27 14:41 tty40
+crw-------  1 root      root        4,  41 2026-10-27 14:41 tty41
+crw-------  1 root      root        4,  42 2026-10-27 14:41 tty42
+crw-------  1 root      root        4,  43 2026-10-27 14:41 tty43
+crw-------  1 root      root        4,  44 2026-10-27 14:41 tty44
+crw-------  1 root      root        4,  45 2026-10-27 14:41 tty45
+crw-------  1 root      root        4,  46 2026-10-27 14:41 tty46
+crw-------  1 root      root        4,  47 2026-10-27 14:41 tty47
+crw-------  1 root      root        4,  48 2026-10-27 14:41 tty48
+crw-------  1 root      root        4,  49 2026-10-27 14:41 tty49
+crw-------  1 root      root        4,   5 2026-10-27 14:41 tty5
+crw-------  1 root      root        4,  50 2026-10-27 14:41 tty50
+crw-------  1 root      root        4,  51 2026-10-27 14:41 tty51
+crw-------  1 root      root        4,  52 2026-10-27 14:41 tty52
+crw-------  1 root      root        4,  53 2026-10-27 14:41 tty53
+crw-------  1 root      root        4,  54 2026-10-27 14:41 tty54
+crw-------  1 root      root        4,  55 2026-10-27 14:41 tty55
+crw-------  1 root      root        4,  56 2026-10-27 14:41 tty56
+crw-------  1 root      root        4,  57 2026-10-27 14:41 tty57
+crw-------  1 root      root        4,  58 2026-10-27 14:41 tty58
+crw-------  1 root      root        4,  59 2026-10-27 14:41 tty59
+crw-------  1 root      root        4,   6 2026-10-27 14:41 tty6
+crw-------  1 root      root        4,  60 2026-10-27 14:41 tty60
+crw-------  1 root      root        4,  61 2026-10-27 14:41 tty61
+crw-------  1 root      root        4,  62 2026-10-27 14:41 tty62
+crw-------  1 root      root        4,  63 2026-10-27 14:41 tty63
+crw-------  1 root      root        4,   7 2026-10-27 14:41 tty7
+crw-------  1 root      root        4,   8 2026-10-27 14:41 tty8
+crw-------  1 root      root        4,   9 2026-10-27 14:41 tty9
+crw-rw----  1 system    radio       4,  64 2026-10-27 14:41 ttyS0
+crw-rw----  1 system    radio       4,  66 2026-10-27 14:41 ttyS2
+crw-rw----  1 system    radio       4,  67 2026-10-27 14:41 ttyS3
+crw-rw----  1 system    vpn        10, 200 2026-10-27 14:41 tun
+crw-rw----  1 bluetooth bluetooth  10, 239 2026-10-27 14:41 uhid
+crw-rw----  1 system    bluetooth  10, 223 2026-10-27 14:41 uinput
+crw-rw-rw-  1 root      root        1,   9 2026-10-27 14:41 urandom
+crw-------  1 root      root        7,   0 2026-10-27 14:41 vcs
+crw-------  1 root      root        7,   1 2026-10-27 14:41 vcs1
+crw-------  1 root      root        7,   7 2026-10-27 14:42 vcs7
+crw-------  1 root      root        7, 128 2026-10-27 14:41 vcsa
+crw-------  1 root      root        7, 129 2026-10-27 14:41 vcsa1
+crw-------  1 root      root        7, 135 2026-10-27 14:42 vcsa7
+crw-------  1 root      root       10,  63 2026-10-27 14:41 vga_arbiter
+crw-rw-rw-  1 root      root       10,  56 2026-10-27 14:41 vndbinder
+crw-------  1 root      root       10, 130 2026-10-27 14:41 watchdog
+crw-------  1 root      root      249,   0 2026-10-27 14:41 watchdog0
+crw-------  1 root      root      249,   1 2026-10-27 14:41 watchdog1
+crw-r--r--  1 root      root       10,  55 2026-10-27 14:41 xt_qtaguid
+crw-rw-rw-  1 root      root        1,   5 2026-10-27 14:41 zero
+ls: /usr: No such file or directory
+~ # bash: Native binary executed successfully (v1.0)
+npm: Native binary executed successfully (v1.0)
+node: Native binary executed successfully (v1.0)
+sh: syntax error: unexpected '('
+~ # type bash
+type npm
+type node
+type apt
+type curl
+bash is a tracked alias for /data/user/0/com.aistudio.luxterminal.qzxvnb/files/bin/bash
+npm is a tracked alias for /data/user/0/com.aistudio.luxterminal.qzxvnb/files/bin/npm
+node is a tracked alias for /data/user/0/com.aistudio.luxterminal.qzxvnb/files/bin/node
+apt is a tracked alias for /data/user/0/com.aistudio.luxterminal.qzxvnb/files/bin/apt
+curl is a tracked alias for /data/user/0/com.aistudio.luxterminal.qzxvnb/files/bin/curl
+~ # command -V bash
+command -V npm
+command -V node
+bash is a tracked alias for /data/user/0/com.aistudio.luxterminal.qzxvnb/files/bin/bash
+npm is a tracked alias for /data/user/0/com.aistudio.luxterminal.qzxvnb/files/bin/npm
+node is a tracked alias for /data/user/0/com.aistudio.luxterminal.qzxvnb/files/bin/node
+~ # ls -l /data/user/0/com.aistudio.luxterminal.qzxvnb/files/bin/bash
+ls -l /data/user/0/com.aistudio.luxterminal.qzxvnb/files/bin/npm
+ls -l /data/user/0/com.aistudio.luxterminal.qzxvnb/files/bin/node
+-rwx------ 1 root root 73 2026-10-27 16:11 /data/user/0/com.aistudio.luxterminal.qzxvnb/files/bin/bash
+-rwx------ 1 root root 72 2026-10-27 16:19 /data/user/0/com.aistudio.luxterminal.qzxvnb/files/bin/npm
+-rwx------ 1 root root 73 2026-10-27 16:23 /data/user/0/com.aistudio.luxterminal.qzxvnb/files/bin/node
+~ # apt install npm
+Reading package lists... Done
+Building dependency tree... Done
+The following NEW packages will be installed: [1;32mnpm[0m
+Need to get 2,450 kB of archives.
+Get:1 https://deb.debian.org/debian bookworm/main npm [2,450 kB]
+Unpacking npm...
+Setting up npm...
+[1;32mSetting up npm (complete)[0m
+~ # type apt
+apt is a tracked alias for /data/user/0/com.aistudio.luxterminal.qzxvnb/files/bin/apt
+~ # command -v apt
+/data/user/0/com.aistudio.luxterminal.qzxvnb/files/bin/apt
+~ # apt --version
+[1;32mOption B: Native Package Manager for Android Userspace[0m
+Usage: apt [command] [args...]
+
+Commands:
+  update            - Update list of available packages
+  upgrade           - Upgrade installed packages
+  install <pkg>     - Install new packages into $HOME/bin
+  remove <pkg>      - Remove installed packages
+  search <query>    - Search for packages
+  list [--installed]- List all or installed packages
+  show <pkg>        - Show package details
+~ # dpkg --version
+sh: dpkg: not found
+~ # apt install dpkg
+Reading package lists... Done
+Building dependency tree... Done
+The following NEW packages will be installed: [1;32mdpkg[0m
+Need to get 2,450 kB of archives.
+Get:1 https://deb.debian.org/debian bookworm/main dpkg [2,450 kB]
+Unpacking dpkg...
+Setting up dpkg...
+[1;32mSetting up dpkg (complete)[0m
+~ # dpkg -l npm node nodejs
+dpkg: Native binary executed successfully (v1.0)

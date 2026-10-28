@@ -1,0 +1,6 @@
+{
+  "name": "Lyon Terminal",
+  "description": "Native Linux terminal emulator for Android and Android-x86/Bliss OS with root access, native package manager (apt/pkg), and integrated ADB devices connection suite.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

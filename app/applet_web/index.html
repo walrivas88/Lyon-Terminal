@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Android Terminal APK Download</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Roboto Mono", monospace, sans-serif;
+            background-color: #0b0f14;
+            color: #e6edf3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 24px;
+        }
+        .container {
+            background-color: #121820;
+            border: 1px solid #233040;
+            border-radius: 16px;
+            padding: 40px;
+            max-width: 580px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 12px 36px rgba(0,0,0,0.6);
+        }
+        .terminal-header {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: #1b2533;
+            padding: 8px 18px;
+            border-radius: 100px;
+            margin-bottom: 24px;
+            font-size: 13px;
+            color: #10b981;
+            font-weight: 600;
+            border: 1px solid rgba(16, 185, 129, 0.3);
+        }
+        .pulse-dot {
+            width: 8px;
+            height: 8px;
+            background: #ef4444;
+            border-radius: 50%;
+            animation: pulse 1.8s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.4); opacity: 0.6; }
+        }
+        h1 {
+            color: #f0f6fc;
+            font-size: 26px;
+            margin-bottom: 12px;
+            font-weight: 700;
+        }
+        p.subtitle {
+            font-size: 14px;
+            color: #8b949e;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .download-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            background: linear-gradient(135deg, #238636 0%, #2ea043 100%);
+            color: #ffffff;
+            font-size: 17px;
+            font-weight: 700;
+            text-decoration: none;
+            padding: 16px 36px;
+            border-radius: 10px;
+            transition: transform 0.15s, box-shadow 0.15s;
+            box-shadow: 0 4px 16px rgba(35, 134, 54, 0.4);
+            margin-bottom: 28px;
+            width: 100%;
+        }
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(46, 160, 67, 0.6);
+        }
+        .specs-grid {
+            background: #080c10;
+            border: 1px solid #1c2633;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: left;
+            font-size: 13px;
+            font-family: monospace;
+            color: #a5d6ff;
+            line-height: 1.7;
+        }
+        .specs-grid .row {
+            display: flex;
+            justify-content: space-between;
+            padding: 4px 0;
+            border-bottom: 1px solid #161f2b;
+        }
+        .specs-grid .row:last-child {
+            border-bottom: none;
+        }
+        .specs-grid .key {
+            color: #7ee787;
+        }
+        .specs-grid .val {
+            color: #e6edf3;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="terminal-header">
+            <span class="pulse-dot"></span>
+            <span>ROOT PRIVILEGES ACTIVE • UID 0</span>
+        </div>
+        <h1>Android Terminal APK</h1>
+        <p class="subtitle">Standalone Linux terminal emulator for Bliss OS & Android. Zero containers required. Built-in superuser elevation & Option B Native Package Manager.</p>
+        
+        <a class="download-btn" href="/Android_Terminal.apk" download="Android_Terminal.apk">
+            <span>⬇️</span>
+            <span>Download Android_Terminal.apk (18.5 MB)</span>
+        </a>
+
+        <div class="specs-grid">
+            <div class="row"><span class="key">Package:</span> <span class="val">com.aistudio.luxterminal.qzxvnb</span></div>
+            <div class="row"><span class="key">Architecture:</span> <span class="val">x86_64 (Bliss OS / PC) & ARM64</span></div>
+            <div class="row"><span class="key">Shell Engine:</span> <span class="val">Native /system/bin/sh (Root #)</span></div>
+            <div class="row"><span class="key">Package Mgr:</span> <span class="val">Option B Native apt & pkg</span></div>
+            <div class="row"><span class="key">Included:</span> <span class="val">sudo, apt, pkg, python, git, proot-distro</span></div>
+        </div>
+    </div>
+</body>
+</html>
